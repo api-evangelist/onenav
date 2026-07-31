@@ -1,8 +1,27 @@
 aid: onenav
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onenav.png
 name: oneNav
-description: 'oneNav is a company surfaced as a portfolio company of gv, norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'oneNav is a fabless GNSS (Global Navigation Satellite System) semiconductor
+  company building the next generation of mobile positioning. Its L5-direct receiver
+  acquires and tracks on the modern L5 satellite band without legacy L1 aiding, delivering
+  higher location accuracy in urban canyons and far greater resilience to GPS jamming
+  and spoofing, in half the RF size, power and cost of hybrid L1+L5 solutions. Founded
+  in 2019 (Steve Poizner, Paul McBurney) with offices in Sunnyvale, CA and Tampere,
+  Finland, oneNav targets smartphones, wearables, IoT trackers, defense and emergency
+  services. It is backed by GV, Norwest Venture Partners and GSR Ventures. oneNav is
+  a hardware/silicon company and does not publish a public developer API, OpenAPI, or
+  developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/onenav/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- GNSS
+- GPS
+- Positioning
+- Navigation
+- Semiconductors
+- Location
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: http://onenav.ai
+- type: About
+  url: https://onenav.ai/about/
+- type: Blog
+  url: https://onenav.ai/media/
+- type: Support
+  url: https://onenav.ai/contact/
+- type: PrivacyPolicy
+  url: https://onenav.ai/pdfviewer/privacy-policy/?auto_viewer=true
+- type: TermsOfService
+  url: https://onenav.ai/pdfviewer/terms-and-conditions/?auto_viewer=true
+- type: LinkedIn
+  url: https://www.linkedin.com/company/onenav-inc
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
